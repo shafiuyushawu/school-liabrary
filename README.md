@@ -72,6 +72,14 @@ Run the code in the console/irb.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+-  **[Prepare base Decorator]**
+-  **Turn Person class to Nameable]**
+-  **[Prepare CapitalizeDecorator and TrimmerDecorator]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
