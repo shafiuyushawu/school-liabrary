@@ -1,10 +1,12 @@
 require_relative 'person'
 
 class Student < Person
-  def initialize(id, age, classroom, parent_permission: true, name: 'Unknown')
+  attr_reader :classroom
+
+  def initialize(age, name: 'Unknown', classroom: 'Unknown', parent_permission: true)
     super(age, name: name, parent_permission: parent_permission)
-    @id = id
-    self.classroom = classroom
+    @id = Random.rand(1...100)
+    @classroom = classroom
   end
 
   def play_hooky
