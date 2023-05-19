@@ -3,7 +3,7 @@ require_relative 'rental'
 
 class Person < Nameable
   attr_reader :id
-  attr_accessor :name, :age, :rentals
+  attr_accessor :name, :age
 
   # rubocop:disable Lint/MissingSuper
   def initialize(age, name)
@@ -14,16 +14,16 @@ class Person < Nameable
   end
   # rubocop:enable Lint/MissingSuper
 
-  def add_rental(book, date)
-    Rental.new(book, self, date)
-  end
-
   def can_use_service?
     of_age? || @parent_permission
   end
 
   def correct_name
     @name
+  end
+
+  def add_rental(book)
+    Rental.new(book, self)
   end
 
   private
