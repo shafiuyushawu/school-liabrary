@@ -70,6 +70,12 @@ Run the code in the console/irb.
 - Twitter: [@shafiuyushawu](https://twitter.com/shafiuyushawu)
 - LinkedIn: [shafiuyushawu](https://linkedin.com/in/shafiuyushawu)
 
+## 👤Nicholas Kwamena Amissah <a name="authors"></a>
+
+- GitHub: [Nicholas Amissah](https://github.com/atok624)
+- Twitter: [Nicholas Amissah](https://twitter.com/MysticalAmissah)
+- LinkedIn: [Nicholas Amissah](https://www.linkedin.com/in/nicholas-amissah-153b09154)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
