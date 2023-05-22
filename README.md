@@ -70,7 +70,9 @@ Run the code in the console/irb.
 - Twitter: [@shafiuyushawu](https://twitter.com/shafiuyushawu)
 - LinkedIn: [shafiuyushawu](https://linkedin.com/in/shafiuyushawu)
 
-## 👤Nicholas Kwamena Amissah <a name="authors"></a>
+
+👤 **Nicholas Kwamena Amissah** 
+
 
 - GitHub: [Nicholas Amissah](https://github.com/atok624)
 - Twitter: [Nicholas Amissah](https://twitter.com/MysticalAmissah)
