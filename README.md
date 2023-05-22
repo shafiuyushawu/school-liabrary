@@ -29,7 +29,7 @@
 - [📝 License](#license)
 
 
-# 📖 School Liabrary<a name="about-project"></a>
+# 📖 School Library<a name="about-project"></a>
 
 This is a ruby program that uses Object Oriented Program approach to create class `Person` with attributes and its sub classes `Teacher` and `Student` that inherents the objects of the class `Person`.
 
