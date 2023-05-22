@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <h1><b>School Liabrary</b></h1>
+  <h1><b>School Library</b></h1>
 
 </div>
 
@@ -29,7 +29,7 @@
 - [📝 License](#license)
 
 
-# 📖 School Liabrary<a name="about-project"></a>
+# 📖 School Library<a name="about-project"></a>
 
 This is a ruby program that uses Object Oriented Program approach to create class `Person` with attributes and its sub classes `Teacher` and `Student` that inherents the objects of the class `Person`.
 
@@ -69,6 +69,12 @@ Run the code in the console/irb.
 - GitHub: [@shafiuyushawu](https://github.com/shafiuyushawu)
 - Twitter: [@shafiuyushawu](https://twitter.com/shafiuyushawu)
 - LinkedIn: [shafiuyushawu](https://linkedin.com/in/shafiuyushawu)
+
+👤 **Nicholas Kwamena Amissah** 
+
+- GitHub: [Nicholas Amissah](https://github.com/atok624)
+- Twitter: [Nicholas Amissah](https://twitter.com/MysticalAmissah)
+- LinkedIn: [Nicholas Amissah](https://www.linkedin.com/in/nicholas-amissah-153b09154)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
