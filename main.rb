@@ -1,4 +1,5 @@
 require_relative 'app'
+require_relative 'modules/select'
 
 class Main
   def options
@@ -13,7 +14,7 @@ class Main
   end
 
   def execute_app
-    app = App.new
+    select = Select.new
     puts 'Welcome to School Liabrary App!'
 
     loop do
@@ -22,7 +23,7 @@ class Main
 
       break if option == '7'
 
-      app.select(option)
+      select.select(option)
     end
   end
 end
