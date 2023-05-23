@@ -19,7 +19,6 @@ module BookMod
     @books.push(book)
     puts 'Book created successfully!'
     SaveData.new.save_books(@books)
-    puts 'Successfuly saved to Book.json!'
   end
 
   def list_books_using_id

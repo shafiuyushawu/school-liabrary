@@ -35,7 +35,6 @@ module PeopleMod
     @people.push(student)
     puts 'Student added successfully!'
     SaveData.new.save_people(@people)
-    puts 'Student saved successfully to People.json'
   end
 
   def create_teacher
@@ -49,7 +48,6 @@ module PeopleMod
     @people.push(teacher)
     puts 'Teacher added successfully!'
     SaveData.new.save_people(@people)
-    puts 'Teacher saved successfully to People.json'
 
   end
 

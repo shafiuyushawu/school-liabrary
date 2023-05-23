@@ -1,13 +1,17 @@
 require_relative '../app'
+require_relative 'read_data'
+require 'pry'
 
 class Select
   def initialize
     @app = App.new
+    @read = ReadData.new   
   end
 
   def select(option)
     case option
     when '1'
+      @read.read_books
       @app.list_books
     when '2'
       @app.list_people
