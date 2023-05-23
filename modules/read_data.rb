@@ -1,26 +1,25 @@
 require 'json'
 require 'pry'
 
-class ReadData 
-  def read_books 
+class ReadData
+  def read_books
     books = []
-    return books unless File.exist?('./data/books.json') 
-    
+    return books unless File.exist?('./data/books.json')
+
     file = File.open('./data/books.json')
-    data = JSON.parse(file.read) 
-    data.each do |book| 
-      
-      books << Book.new(book['title'], book['author']) 
+    data = JSON.parse(file.read)
+    data.each do |book|
+      books << Book.new(book['title'], book['author'])
     end
-    file.close 
-    return books
-  end 
-  def read_people 
+    file.close
+    books
+  end
+
+  def read_people
     people = []
-    
-    
+
     return people unless File.exist?('./data/people.json')
-    
+
     file = File.open('./data/people.json')
     data = JSON.parse(file.read)
     data.each do |person|
@@ -33,11 +32,11 @@ class ReadData
       end
     end
     file.close
-    people 
+    people
   end
 
-  def read_rentals(books, people) 
-    rentals = []  
+  def read_rentals(books, people)
+    rentals = []
     return rentals unless File.exist?('./data/rentals.json')
 
     file = File.open('./data/rentals.json')
@@ -49,4 +48,3 @@ class ReadData
     rentals
   end
 end
-
