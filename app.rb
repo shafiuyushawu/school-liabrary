@@ -9,6 +9,8 @@ require_relative 'modules/book_mod'
 require_relative 'modules/people_mod'
 require_relative 'modules/Rental_mod'
 
+require_relative 'modules/save_data'
+
 class App
   attr_accessor :books, :rentals, :people
 
