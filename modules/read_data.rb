@@ -25,9 +25,11 @@ class ReadData
     data.each do |person|
       if person['type'] == 'Student'
         student = Student.new(person['age'], person['name'], person['parent_permission'])
+        student.id =  person['id']
         people << student
       else
         teacher = Teacher.new(person['age'], person['name'], person['parent_permission'])
+        teacher.id = person['id']
         people << teacher
       end
     end
