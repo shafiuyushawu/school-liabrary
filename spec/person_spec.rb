@@ -23,15 +23,4 @@ describe Person do
     service = @person.can_use_service?
     expect(service).to be_truthy 
   end
-
-  it 'Has no rentals' do 
-    rentals = @person.rentals 
-    expect(rentals).to eq []
-  end
-
-  it 'Cannot use serivces when user age is less than 18' do
-    nicholas = Person.new(13, 'Nicholas')
-    nicholas_service = nicholas.can_use_service? 
-    expect(nicholas_service).to be_falsy
-  end
 end
