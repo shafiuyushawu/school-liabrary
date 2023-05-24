@@ -12,6 +12,7 @@ module RentalMod
     person = @people[select_person]
     rental = Rental.new(date, book, person)
     @rentals.push(rental)
+    SaveData.new.save_rentals(@rentals, @books, @people)
     puts 'Rental created successfully!'
   end
 

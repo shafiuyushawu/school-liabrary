@@ -1,4 +1,5 @@
 require_relative '../app'
+require_relative 'read_data'
 
 class Select
   def initialize

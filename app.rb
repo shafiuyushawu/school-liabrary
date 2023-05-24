@@ -7,15 +7,18 @@ require_relative 'modules/book'
 
 require_relative 'modules/book_mod'
 require_relative 'modules/people_mod'
-require_relative 'modules/Rental_mod'
+require_relative 'modules/rental_mod'
+
+require_relative 'modules/save_data'
+require_relative 'modules/read_data'
 
 class App
   attr_accessor :books, :rentals, :people
 
   def initialize
-    @books = []
-    @rentals = []
-    @people = []
+    @books = ReadData.new.read_books
+    @people = ReadData.new.read_people
+    @rentals = ReadData.new.read_rentals(ReadData.new.read_books, ReadData.new.read_people)
   end
 
   include BookMod

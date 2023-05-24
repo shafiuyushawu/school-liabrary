@@ -1,9 +1,11 @@
 require_relative 'person'
 
 class Teacher < Person
+  attr_accessor :specialization
+  attr_writer :id
+
   def initialize(age, name, specialization)
     super(age, name)
-    @id = Random.rand(1...1000)
     @specialization = specialization
   end
 

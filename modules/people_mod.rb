@@ -34,6 +34,7 @@ module PeopleMod
     student = Student.new(age, name, parent_permission)
     @people.push(student)
     puts 'Student added successfully!'
+    SaveData.new.save_people(@people)
   end
 
   def create_teacher
@@ -46,6 +47,7 @@ module PeopleMod
     teacher = Teacher.new(age, name, specialization)
     @people.push(teacher)
     puts 'Teacher added successfully!'
+    SaveData.new.save_people(@people)
   end
 
   def list_people_using_id

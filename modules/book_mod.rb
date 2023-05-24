@@ -18,6 +18,7 @@ module BookMod
     book = Book.new(title, author)
     @books.push(book)
     puts 'Book created successfully!'
+    SaveData.new.save_books(@books)
   end
 
   def list_books_using_id
