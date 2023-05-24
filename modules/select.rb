@@ -5,7 +5,7 @@ require 'pry'
 class Select
   def initialize
     @app = App.new
-    @read = ReadData.new   
+    @read = ReadData.new
   end
 
   def select(option)

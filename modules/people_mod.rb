@@ -48,7 +48,6 @@ module PeopleMod
     @people.push(teacher)
     puts 'Teacher added successfully!'
     SaveData.new.save_people(@people)
-
   end
 
   def list_people_using_id
