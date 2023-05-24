@@ -7,9 +7,9 @@
 
 </div>
 
-# 📗 Table of Contents
+# 📗Table of Contents
 
-- [📖 About the Project](#about-project)
+- [📖 School-Library](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -18,6 +18,7 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -41,23 +42,56 @@ This is a ruby program that uses Object Oriented Program approach to create clas
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting Started <a name="getting-started"></a>
+## Getting Started
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+> You need the following tools be installed in your computer:
 
-VS Code, GIT, Ruby and NPM installed
+> - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+> - [Ruby](https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/articles/ruby_installation_instructions.md)
+> - IDE
+> - Etc
 
 ### Setup
 
-Clone this repository to your desired folder using the git clone command
+Clone this repository to your desired folder:
+
+```sh
+  cd my-prefered-folder
+
+  git clone https://github.com/shafiuyushawu/school-liabrary.git
+
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  cd school-liabrary
+
+  bundle install
+```
 
 ### Usage
 
-Run the code in the console/irb.
+To run the project, execute the following command:
+
+```sh
+  ruby main.rb
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+
+```sh
+  rspec spec/
+```
 
 ## 👥 Authors <a name="authors"></a>
 
