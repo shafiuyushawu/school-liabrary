@@ -1,4 +1,4 @@
-require '../modules/teacher'
+require_relative 'import_files'
 
 describe Teacher do
   before :each do

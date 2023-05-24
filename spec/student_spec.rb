@@ -1,4 +1,4 @@
-require '../modules/student'
+require_relative 'import_files'
 
 describe Student do
   before :each do

@@ -1,4 +1,4 @@
-require '../modules/person'
+require_relative 'import_files'
 
 describe Person do
   before :each do

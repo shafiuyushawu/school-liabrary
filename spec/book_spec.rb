@@ -1,4 +1,4 @@
-require '../modules/book'
+require_relative 'import_files'
 
 describe Book do
   before :each do

@@ -1,4 +1,4 @@
-require '../modules/classroom'
+require_relative 'import_files'
 
 describe Classroom do
   before :each do

@@ -1,4 +1,4 @@
-require '../modules/rental'
+require_relative 'import_files'
 
 describe Rental do
   before :each do
