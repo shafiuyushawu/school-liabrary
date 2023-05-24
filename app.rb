@@ -11,7 +11,7 @@ require_relative 'modules/rental_mod'
 
 require_relative 'modules/save_data'
 require_relative 'modules/read_data'
-require 'pry'
+
 class App
   attr_accessor :books, :rentals, :people
 
@@ -20,9 +20,7 @@ class App
     @people = ReadData.new.read_people
     @rentals = ReadData.new.read_rentals(ReadData.new.read_books, ReadData.new.read_people)
   end
-
-
-
+  
   include BookMod
   include PeopleMod
   include RentalMod

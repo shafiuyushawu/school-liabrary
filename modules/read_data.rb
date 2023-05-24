@@ -8,15 +8,26 @@ class ReadData
 
     file = File.open('./data/books.json')
     data = JSON.parse(file.read)
+<<<<<<< HEAD
     file.close
     data.each do |book|
       books << Book.new(book['title'], book['author'])
     end
+=======
+    data.each do |book|
+      books << Book.new(book['title'], book['author'])
+    end
+    file.close
+>>>>>>> 50a63d48ce2b7cfc82af34296c4ae41b81c0530b
     books
   end
 
   def read_people
     people = []
+<<<<<<< HEAD
+=======
+
+>>>>>>> 50a63d48ce2b7cfc82af34296c4ae41b81c0530b
     return people unless File.exist?('./data/people.json')
 
     file = File.open('./data/people.json')
@@ -31,6 +42,10 @@ class ReadData
         people << teacher
       end
     end
+<<<<<<< HEAD
+=======
+    file.close
+>>>>>>> 50a63d48ce2b7cfc82af34296c4ae41b81c0530b
     people
   end
 
