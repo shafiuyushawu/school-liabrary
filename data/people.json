@@ -1,16 +1,30 @@
 [
   {
-    "id": 14,
-    "name": "Shafiu",
-    "age": "75",
+    "id": 630,
+    "name": "Amen",
+    "age": "20",
     "type": "Student",
     "parent_permission": true
   },
   {
-    "id": 432,
-    "name": "Nicholas",
-    "age": "23",
+    "id": 204,
+    "name": "Shafu",
+    "age": "30",
     "type": "Teacher",
-    "specialization": "Maths"
+    "specialization": null
+  },
+  {
+    "id": 163,
+    "name": "shafiu",
+    "age": "10 ",
+    "type": "Student",
+    "parent_permission": true
+  },
+  {
+    "id": 357,
+    "name": "Amen",
+    "age": "20",
+    "type": "Teacher",
+    "specialization": "math"
   }
 ]
