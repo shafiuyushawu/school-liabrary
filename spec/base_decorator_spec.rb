@@ -1,5 +1,4 @@
-require '../modules/base_decorator'
-require '../modules/person'
+require_relative 'import_files'
 
 describe BaseDecorator do
   before :each do

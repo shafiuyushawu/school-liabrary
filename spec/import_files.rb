@@ -1,0 +1,7 @@
+require '../modules/person'
+require '../modules/book'
+require '../modules/rental'
+require '../modules/student'
+require '../modules/teacher'
+require '../modules/classroom'
+require '../modules/base_decorator'

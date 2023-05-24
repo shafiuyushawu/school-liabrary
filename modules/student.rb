@@ -18,4 +18,4 @@ class Student < Person
     @classroom = classroom
     @classroom.students << self unless @classroom.students.include?(self)
   end
-end 
+end
