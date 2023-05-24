@@ -7,11 +7,10 @@ require_relative 'modules/book'
 
 require_relative 'modules/book_mod'
 require_relative 'modules/people_mod'
-require_relative 'modules/Rental_mod'
+require_relative 'modules/rental_mod'
 
 require_relative 'modules/save_data'
 require_relative 'modules/read_data'
-require 'pry'
 class App
   attr_accessor :books, :rentals, :people
 

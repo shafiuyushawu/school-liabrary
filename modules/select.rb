@@ -1,6 +1,5 @@
 require_relative '../app'
 require_relative 'read_data'
-require 'pry'
 
 class Select
   def initialize

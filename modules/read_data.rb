@@ -1,5 +1,4 @@
 require 'json'
-require 'pry'
 
 class ReadData
   def read_books
