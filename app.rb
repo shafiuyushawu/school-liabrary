@@ -20,7 +20,7 @@ class App
     @people = ReadData.new.read_people
     @rentals = ReadData.new.read_rentals(ReadData.new.read_books, ReadData.new.read_people)
   end
-  
+
   include BookMod
   include PeopleMod
   include RentalMod
