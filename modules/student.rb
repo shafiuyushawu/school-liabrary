@@ -1,8 +1,8 @@
 require_relative 'person'
 
 class Student < Person
-  attr_reader :classroom, :parent_permission
-  attr_writer :id
+  attr_reader :parent_permission
+  attr_writer :id, :classroom
 
   def initialize(age, name, parent_permission, classroom: 'Unknown')
     super(age, name)
@@ -18,5 +18,4 @@ class Student < Person
     @classroom = classroom
     @classroom.students << self unless @classroom.students.include?(self)
   end
-end
-# student=Student.new(22,name:'shafiu', parent_permission: true)
+end 
