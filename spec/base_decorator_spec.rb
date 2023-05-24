@@ -1,5 +1,5 @@
-require "../modules/base_decorator.rb"
-require "../modules/person.rb"
+require '../modules/base_decorator'
+require '../modules/person'
 
 describe BaseDecorator do
   before :each do
